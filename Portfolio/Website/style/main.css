@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Helvetica Neue';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-container a {
+  color: green;
+  display: block;
+  padding: 0 1em;
+}
+
+.nav-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero {
+  background: #3b6880;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3b6880), to(#1e3447));
+  background: linear-gradient(#3b6880 0%, #1e3447 100%);
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.hero .logo-container {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 12%;
+}
+
+.hero-design, .side-nav {
+  display: none;
+}
+
+.sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 250px;
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    height: 85vh;
+  }
+}
+/*# sourceMappingURL=main.css.map */

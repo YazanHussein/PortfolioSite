@@ -40,6 +40,7 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
+  setTimeout(function (){
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i=0; i<elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
@@ -51,9 +52,26 @@ window.onload = function() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.09em solid #0AFFED }";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.09em solid #901111 }";
   document.body.appendChild(css);
+}, 2000);
 };
 
 
 
+
+function minimize(a) {
+  let ss = document.styleSheets;
+  var x = document.getElementById("contact2");
+  //x.classList.add('animate');
+  //x.classList.add("animate");
+  //x.className += "animate";
+  x.classList.add("animate");
+  console.log(x.className);
+}
+function maximize(a) {
+  let ss = document.styleSheets;
+  var x = document.getElementById("contact2");
+  x.classList.remove('animate');
+
+}
