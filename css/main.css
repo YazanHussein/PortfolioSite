@@ -200,7 +200,7 @@ h4 {
 }
 
 .about {
-  margin: 0em 18em 8em 18em;
+  margin: 0em 18em 0em 18em;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 65% auto;
@@ -214,6 +214,11 @@ h4 {
       grid-template-rows: 55% auto;
   padding-right: 20px;
   padding-top: 50px;
+}
+
+.leftside .abouttext {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .animate {
@@ -359,6 +364,7 @@ h4 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 4em;
+  padding-top: 3em;
   font-size: 1.5em;
 }
 
@@ -651,6 +657,7 @@ button::after {
 
 .wrapper {
   max-height: 120px;
+  margin: 3em 25em 8em 25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -668,18 +675,12 @@ button::after {
   line-height: 95%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-weight: bold;
+  color: #901111;
 }
 
 .wrapper::-webkit-scrollbar {
-  border: 3px solid #0B2027;
-  width: 20px;
-}
-
-.wrapper::-webkit-scrollbar ::-webkit-scrollbar-button:single-button {
-  background-color: #082032;
-  display: block;
-  background-size: 10px;
-  background-repeat: no-repeat;
+  display: none;
 }
 
 .wrapper .item {
