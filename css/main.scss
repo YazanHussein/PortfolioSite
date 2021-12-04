@@ -718,8 +718,33 @@ button::after {
     padding-right: 0em;
     padding-bottom: 0em;
     padding-top:2em;
-    height: 95vh;
-    
+    height: 50vh;
+    background-color: #0B2027;
+    color: white;
+    padding:5em 10em 10em 18em;
+    .passion{
+        font-size: 1em;
+    }
+    .uxd{
+        font-size: 2em;
+        padding-top:0em;
+        margin-top:0;
+    }
+    .email{
+        color: white;
+        display: block;
+        font-size: 1.3em;
+
+        text-decoration: none;
+        width: 10em;
+        text-align: center;
+        border: 4px solid white;
+        border-radius: 40px;
+        padding:1em;
+    }
+    .number{
+        font-size: 0.8em;
+    }
 
 }
 
