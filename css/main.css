@@ -512,7 +512,7 @@ h4 {
 }
 
 .window {
-  margin: 4em 18em;
+  height: 100vh;
   border-radius: 17px;
   color: #FBF8F4;
   font-family: 'poppins';
